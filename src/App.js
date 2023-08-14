@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import PositiveButton from './components/positiveButton/positiveButton';
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
         >
           Learn React
         </a>
+        <PositiveButton label="Hola" buttonClass="buttonClassPrimary"/>
+        <PositiveButton label="Hola 2" buttonClass="buttonClassCancel"/>
+        <PositiveButton label="Hola 3" buttonClass="buttonClassPrimary"/>
+        <PositiveButton label="Hola 4" buttonClass="buttonClassCancel"/>
       </header>
     </div>
   );

@@ -1,0 +1,20 @@
+.buttonClassPrimary{
+    background-color: gray;
+    color: black;
+    font-size: xx-large;
+    margin: 10px;
+    outline: 2px solid black;
+    outline-offset: 3px;
+    border-radius: 15px;
+}
+
+.buttonClassCancel{
+    background-color: red;
+    color: white;
+    font-size: xx-large;
+    margin: 10px;
+    outline: 2px solid black;
+    outline-offset: 3px;
+    border-radius: 15px;
+}
+
